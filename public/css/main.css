@@ -16,3 +16,84 @@ body {
   padding: 0;
   font-family: "Red Hat Text", sans-serif;
 }
+
+.main {
+  background: url(/images/bg-stars.svg) top left;
+  background-color: #1a1b23;
+  position: relative;
+  z-index: 100;
+  border: 3px solid #fff;
+  height: 100vh;
+  width: 100vw;
+}
+.main__wrapper {
+  height: 100%;
+}
+.main__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: 85%;
+}
+.main .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.main .row .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.main .row .card__number {
+  background-color: #343650;
+  box-shadow: 0 1rem 0.4rem #191a24;
+  border-radius: 8px;
+  color: #fb6087;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.6rem;
+  padding: 2rem;
+  min-height: 12rem;
+  min-width: 12rem;
+}
+.main .row .card__desc {
+  color: #8486a9;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-col--1 {
+  background-color: rgba(47, 36, 57, 0.3);
+  height: 10%;
+  z-index: 1;
+}
+.main-col--2 {
+  position: relative;
+  background: url(/images/pattern-hills.svg) no-repeat bottom left/contain;
+  background-color: rgba(47, 36, 57, 0.4);
+  height: 90%;
+}
+.main__header {
+  color: #fff;
+  letter-spacing: 8px;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mb--xl {
+  margin-bottom: 8rem;
+}
+
+.row__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}

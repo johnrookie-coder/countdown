@@ -1,2 +1,7 @@
-@use "base/colors";
+@use "abstract/colors";
+
 @use "base/reset";
+
+@use "layout/timer";
+
+@use "component/card";
