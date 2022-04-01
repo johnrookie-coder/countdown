@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .main {
+    &-col--2 {
+      .main__contents {
+        .row {
+          gap: 4rem;
+        }
+      }
+    }
+  }
+
+  .card {
+    &__number {
+      font-size: 5.6rem !important;
+      padding: 2rem;
+
+      min-height: 14rem;
+      min-width: 16rem;
+    }
+
+    &__desc {
+      letter-spacing: 4px;
+    }
+  }
+}
